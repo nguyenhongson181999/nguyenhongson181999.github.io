@@ -4007,7 +4007,9 @@ input[type="button"].btn-block {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #e9ecef;
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+ 
+ }
 
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem; }
