@@ -40,18 +40,25 @@
         font-family: 'Courier New', Courier, monospace;
       }
       v{
-        color: greenyellow;
+        color:deepskyblue;
         font-size: 30px;
       }
-      
+      m {
+        color:black;
+        font-size: 15px;;
+      }
+      c{
+        color:red;
+        font-size: 16px;
+      }
       </style>
   </head>
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">&emsp;&ensp;<b><x>HCI2019</x></b><span><b><x>NGUYEN HONG SON-17130193</x></b></span></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="index.html">&emsp;&ensp;&nbsp;&nbsp;<b>About</b><span><b>NGUYEN HONG SON-17130193</b></span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
@@ -72,7 +79,6 @@
 	    <!-- END nav -->
     
     <div class="hero-wrap hero-wrap-2" style="background-image: url(images/lab.jpg);" data-stellar-background-ratio="0.5">
-      <div class="overlay" style="height:335px;"></div>
       <div class="container-fluid">
         <div class="row no-gutters d-flex slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
@@ -80,12 +86,36 @@
           </div>
         </div>
       </div>
-    </div><br/><br/>
+    </div>
 
     <section class="ftco-section">
     	<div class="container">
     		<div class="row d-md-flex">
-	    		<div class="col-md-6 ftco-animate img about-image" style="background-image: url(images/about1.jpg);">
+	    		<div class="col-md-6 ftco-animate img about-image" >
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                   
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="images/about1.jpg " alt="First slide" style = "height: 610px;">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/about3.jpg" alt="Second slide" style = "height: 610px;">
+                    </div>
+                 
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
 	    		</div>
 	    		<div class="col-md-6 ftco-animate p-md-5">
 		    		<div class="row">
@@ -93,7 +123,7 @@
 		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 		              <a class="nav-link active" id="v-pills-whatwedo-tab" data-toggle="pill" href="#v-pills-whatwedo" role="tab" aria-controls="v-pills-whatwedo" aria-selected="true">Who I Am</a>
 
-		              <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission" role="tab" aria-controls="v-pills-mission" aria-selected="false">My Dream Job</a>
+		              <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission" role="tab" aria-controls="v-pills-mission" aria-selected="false">My Dream</a>
 
 		              <a class="nav-link" id="v-pills-goal-tab" data-toggle="pill" href="#v-pills-goal" role="tab" aria-controls="v-pills-goal" aria-selected="false">My Hometown</a>
 		            </div>
@@ -109,9 +139,10 @@
                       My full name is Nguyễn Hồng Sơn. I'm 20 years old. Everyone call me Son or Mountain and you call like that if you like.
                       <br/>&emsp;&emsp;&emsp;Now, I'm a junior and my major is IT. My part-time job is a Teaching Assistant at ORO English Center. 
                       <br/>&emsp;&emsp;&emsp;I'm studying at HCM city University of Agriculture and Forestry. I was born and bred in Tien Giang province. It's very beautiful and peaceful.
-                      <br/>&emsp;&emsp;&emsp;My mission is to help Vietnamese be able to speak English like your second language and inspire everyone to love English more.
-                      That's something about me. Thanks for reading. </p>
-                      <br/>
+                      My mission is to help Vietnamese can speak English like your second language and inspire everyone to love English more.
+                      That's something about me. 
+                      <br/>&emsp;&emsp;&emsp;Thanks for reading. </p>
+                      <br/><br/>
 				            </div>
 		              </div>
 
@@ -123,17 +154,20 @@
                          The second, I want to make VietNamese food more famous in the world and attract lots of foreigners tourists to travel to Vietnam.
                          The special thing here, I want to make the best dishes for my family and everyon I love.
                          <br/>&emsp;&emsp;&emsp;As you know, my major is information technology. I will be an good programmer.
-                         <br/>&emsp;&emsp;&emsp;But now, I want to become an English teacher. I think that if I want to be a chef like my dream, becoming a English teacher like my passion.
-                         Thanks for reading.
+                         Now, I want to become an English teacher. I think that if I want to be a chef like my dream, becoming a English teacher like my passion.
+                         <br/>&emsp;&emsp;&emsp;Thanks for reading.
                       </p><br/>
 				            </div>
 		              </div>
 
 		              <div class="tab-pane fade" id="v-pills-goal" role="tabpanel" aria-labelledby="v-pills-goal-tab" style="background-image: url(images/about2.jpg);">
-		                <div>
-			                <h2 class="mb-4">Help Our Customer</h2>
-			              	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-			                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <div><br/>
+                      <h2 class="mb-4">&emsp;&emsp;&nbsp;<b><v>Welcome to Tien Giang</v></b></h2>
+                      <p>&emsp;&emsp;&emsp;I was born in Tien Giang province, and it is a great place to visit. Tien Giang is located in Mekong Delta, Southern West of Vietnam.
+                         <br/>&emsp;&emsp;&emsp;There are endless rice fields and fruit gardens which attract a lot of tourists each year here.There are many places that serve traditional music such as Cai Luong and Don Ca Tai Tu, they are carefully set on stage with many skillful artists in colorful costumes and make up.
+                         These shows bring a very unique experience to tourists, and you can end your tour perfectly. If you wants to have a break from your busy life, you can have a small trip to my wonderful hometown.
+                         <br/>&emsp;&emsp;&emsp;Thanks for reading.
+                        </p><br/>
 				            </div>
 		              </div>
 		            </div>
@@ -149,8 +183,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">Testimony</h2>
-            <span class="subheading">Our Happy Customer Says</span>
+            <h2 class="mb-2"><b>My Family</b></h2>
           </div>
         </div>
         <div class="row justify-content-center ftco-animate">
@@ -158,74 +191,21 @@
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mb-5" style="background-image: url(images/family.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text text-center">
-                    <p class="mb-5">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="mb-5"><m>&nbsp;&nbsp;&nbsp;&nbsp;I have a small family with my parents, my older sister and I. This is a peaceful place where helps me to blow off some steam.
+                      <br/>I'd would say that I'm so grateful to my parents for bringing me to this life. I'm so thankful to my parents always loving and protecting me.</m>
+                    </p>
+                    <p class="name"><c>I love my family so much</c> <p>
+                   
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Interface Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">UI Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Web Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">System Analytics</span>
-                  </div>
-                </div>
-              </div>
+           
             </div>
           </div>
         </div>
@@ -237,14 +217,13 @@
         <div class="container">
           <div class="row d-flex justify-content-center">
             <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              <h2><c>What may I do for you?</c></h2>
               <div class="row d-flex justify-content-center mt-5">
                 <div class="col-md-8">
                   <form action="#" class="subscribe-form">
                     <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
+                      <input type="text" class="form-control" placeholder="Enter your email">
+                      <input type="submit" value="Send" class="submit px-3">
                     </div>
                   </form>
                 </div>
@@ -257,137 +236,38 @@
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-6">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">HCI2019</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2"><v>HCI2019</v></h2>
+              <p>Don't hesitate to tell me if you have any broblems!</p>
             </div>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Quick Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Features</a></li>
-                <li><a href="#" class="py-2 d-block">Projects</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/nguyenson.nguyen.12576"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.youtube.com/oops"><span class="icon-youtube"></span></a></li>
               </ul>
-            </div>
           </div>
-          <div class="col-md-4 pr-md-4">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
+         
+          <div class="col-md-6">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Contact Info</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Dormitory B, National University of Ho Chi Minh city, Vietnam</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">(+84) 969177286</span></a></li>
+	                <li><a href="https://mail.google.com/mail/u/0/#inbox"><span class="icon icon-envelope"></span><span class="text">sonnguyen.01081999@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
+       
       </div>
     </footer>
     
   
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalRequestLabel">Request a Quote</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form action="#">
-            <div class="form-group">
-              <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
-              <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
-            </div>
-            <div class="form-group">
-              <!-- <label for="appointment_email" class="text-black">Email</label> -->
-              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <!-- <label for="appointment_date" class="text-black">Date</label> -->
-                  <input type="text" class="form-control" id="appointment_date" placeholder="Date">
-                </div>    
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <!-- <label for="appointment_time" class="text-black">Time</label> -->
-                  <input type="text" class="form-control" id="appointment_time" placeholder="Time">
-                </div>
-              </div>
-            </div>
-            
-
-            <div class="form-group">
-              <!-- <label for="appointment_message" class="text-black">Message</label> -->
-              <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="submit" value="Get a Quote" class="btn btn-primary">
-            </div>
-          </form>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-
+ 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
