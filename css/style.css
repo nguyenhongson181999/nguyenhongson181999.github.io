@@ -237,7 +237,8 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
-  -webkit-appearance: listbox; }
+  -webkit-appearance: listbox;
+   }
 
 textarea {
   overflow: auto;
@@ -6594,7 +6595,12 @@ button.bg-dark:focus {
 
 .pl-3,
 .px-3 {
-  padding-left: 1rem !important; }
+  /* edit */
+  padding-left:1rem !important;
+  color: red;
+  font-size: 20px;
+
+ }
 
 .p-4 {
   padding: 1.5rem !important; }
